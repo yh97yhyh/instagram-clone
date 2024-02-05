@@ -16,8 +16,8 @@ struct ContentView: View {
             if viewModel.userSession == nil {
                 LoginView()
                     .environmentObject(registerationViewModel) // 모든 child view에 적용됨
-            } else {
-                MainTabView()
+            } else if let currentUser = viewModel.currentUser {
+                MainTabView(user: currentUser)
             }
         }
     }
