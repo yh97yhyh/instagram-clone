@@ -22,7 +22,7 @@ struct MainTabView: View {
             Text("Notification")
                 .tabItem { Image(systemName: "heart") }
             
-            CurrentUserProfileView()
+            CurrentUserProfileView(user: User.MOCK_USERS[0])
                 .tabItem { Image(systemName: "person") }
         }
         .accentColor(.black)
