@@ -13,6 +13,8 @@
 		F8E6C6422B7163D20051EF3C /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E6C6412B7163D20051EF3C /* SearchViewModel.swift */; };
 		F8E6C6442B7168F60051EF3C /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E6C6432B7168F60051EF3C /* EditProfileView.swift */; };
 		F8E6C6482B716C1E0051EF3C /* EditProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E6C6472B716C1E0051EF3C /* EditProfileViewModel.swift */; };
+		F8E6C64A2B7170EC0051EF3C /* ImageUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E6C6492B7170EC0051EF3C /* ImageUploader.swift */; };
+		F8E6C64C2B71756C0051EF3C /* CircularProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E6C64B2B71756C0051EF3C /* CircularProfileImageView.swift */; };
 		F8EC1B592B704A1A00C1C42D /* InstagramCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EC1B582B704A1A00C1C42D /* InstagramCloneApp.swift */; };
 		F8EC1B5B2B704A1A00C1C42D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EC1B5A2B704A1A00C1C42D /* ContentView.swift */; };
 		F8EC1B5D2B704A1B00C1C42D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8EC1B5C2B704A1B00C1C42D /* Assets.xcassets */; };
@@ -51,6 +53,8 @@
 		F8E6C6412B7163D20051EF3C /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 		F8E6C6432B7168F60051EF3C /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
 		F8E6C6472B716C1E0051EF3C /* EditProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewModel.swift; sourceTree = "<group>"; };
+		F8E6C6492B7170EC0051EF3C /* ImageUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
+		F8E6C64B2B71756C0051EF3C /* CircularProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProfileImageView.swift; sourceTree = "<group>"; };
 		F8EC1B552B704A1A00C1C42D /* InstagramClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8EC1B582B704A1A00C1C42D /* InstagramCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramCloneApp.swift; sourceTree = "<group>"; };
 		F8EC1B5A2B704A1A00C1C42D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -190,6 +194,7 @@
 			isa = PBXGroup;
 			children = (
 				F8E6C63B2B7162FF0051EF3C /* UserService.swift */,
+				F8E6C6492B7170EC0051EF3C /* ImageUploader.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -302,6 +307,7 @@
 				F8EC1B772B7056BA00C1C42D /* UserStatView.swift */,
 				F8EC1B832B70790600C1C42D /* IGTextFieldModifier.swift */,
 				F8EC1B932B70C37300C1C42D /* PostGridView.swift */,
+				F8E6C64B2B71756C0051EF3C /* CircularProfileImageView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -483,6 +489,7 @@
 				F8EC1B882B7079DD00C1C42D /* CreateUsernameView.swift in Sources */,
 				F8E6C6442B7168F60051EF3C /* EditProfileView.swift in Sources */,
 				F875E10D2B71105A00B64762 /* LoginViewModel.swift in Sources */,
+				F8E6C64A2B7170EC0051EF3C /* ImageUploader.swift in Sources */,
 				F8EC1BA42B7101DC00C1C42D /* ContentViewModel.swift in Sources */,
 				F8EC1B9A2B70C94C00C1C42D /* UploadPostViewModel.swift in Sources */,
 				F8EC1B962B70C4A800C1C42D /* ProfileHeaderView.swift in Sources */,
@@ -492,6 +499,7 @@
 				F8EC1B842B70790600C1C42D /* IGTextFieldModifier.swift in Sources */,
 				F8EC1B782B7056BA00C1C42D /* UserStatView.swift in Sources */,
 				F8EC1B7A2B7061B500C1C42D /* FeedView.swift in Sources */,
+				F8E6C64C2B71756C0051EF3C /* CircularProfileImageView.swift in Sources */,
 				F8E6C6422B7163D20051EF3C /* SearchViewModel.swift in Sources */,
 				F8EC1B732B70515E00C1C42D /* MainTabView.swift in Sources */,
 				F8EC1B8A2B707B1700C1C42D /* CreatePasswordView.swift in Sources */,

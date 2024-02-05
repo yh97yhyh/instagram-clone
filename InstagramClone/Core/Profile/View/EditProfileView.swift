@@ -35,7 +35,10 @@ struct EditProfileView: View {
                     Spacer()
                     
                     Button {
-                        Task { try await viewModel.updateUserData() }
+                        Task {
+                            try await viewModel.updateUserData()
+                            dismiss()
+                        }
                     } label: {
                         Text("Done")
                             .font(.subheadline)
