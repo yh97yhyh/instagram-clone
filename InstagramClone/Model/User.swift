@@ -28,6 +28,6 @@ extension User {
         .init(id: NSUUID().uuidString, username: "sakura", profileImageUrl: "sakura-profile", fullname: "Haruno Sakura", bio: "𑁍 ⋆ ⋆｡°✩", email: "sakura@gmail.com"),
         .init(id: NSUUID().uuidString, username: "sasuke", profileImageUrl: "sasuke-profile", fullname: "Uchiha Sasuke", email: "sasuke@gmail.com"),
         .init(id: NSUUID().uuidString, username: "kakashi", profileImageUrl: "kakashi-profile", fullname: "Hatake Kakashi", bio: "📖", email: "kakashi@gmail.com"),
-        .init(id: NSUUID().uuidString, username: "sai", profileImageUrl: "sai-profile", bio: "🎨", email: "sai@gmail.com")
+        .init(id: NSUUID().uuidString, username: "sai", profileImageUrl: nil, bio: "🎨", email: "sai@gmail.com")
     ]
 }
