@@ -22,8 +22,7 @@ struct MainTabView: View {
             Text("Notification")
                 .tabItem { Image(systemName: "heart") }
             
-            
-            ProfileView()
+            CurrentUserProfileView()
                 .tabItem { Image(systemName: "person") }
         }
         .accentColor(.black)

@@ -23,6 +23,8 @@
 		F8EC1B882B7079DD00C1C42D /* CreateUsernameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EC1B872B7079DD00C1C42D /* CreateUsernameView.swift */; };
 		F8EC1B8A2B707B1700C1C42D /* CreatePasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EC1B892B707B1700C1C42D /* CreatePasswordView.swift */; };
 		F8EC1B8C2B707BBF00C1C42D /* CompleteSignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EC1B8B2B707BBF00C1C42D /* CompleteSignUpView.swift */; };
+		F8EC1B8E2B707D5C00C1C42D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EC1B8D2B707D5C00C1C42D /* User.swift */; };
+		F8EC1B902B7083F300C1C42D /* CurrentUserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EC1B8F2B7083F300C1C42D /* CurrentUserProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +45,8 @@
 		F8EC1B872B7079DD00C1C42D /* CreateUsernameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUsernameView.swift; sourceTree = "<group>"; };
 		F8EC1B892B707B1700C1C42D /* CreatePasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePasswordView.swift; sourceTree = "<group>"; };
 		F8EC1B8B2B707BBF00C1C42D /* CompleteSignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteSignUpView.swift; sourceTree = "<group>"; };
+		F8EC1B8D2B707D5C00C1C42D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F8EC1B8F2B7083F300C1C42D /* CurrentUserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,7 @@
 		F8EC1B672B70507C00C1C42D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F8EC1B8D2B707D5C00C1C42D /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -164,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				F8EC1B742B70527600C1C42D /* ProfileView.swift */,
+				F8EC1B8F2B7083F300C1C42D /* CurrentUserProfileView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -282,9 +288,11 @@
 				F8EC1B5B2B704A1A00C1C42D /* ContentView.swift in Sources */,
 				F8EC1B802B7069ED00C1C42D /* LoginView.swift in Sources */,
 				F8EC1B592B704A1A00C1C42D /* InstagramCloneApp.swift in Sources */,
+				F8EC1B902B7083F300C1C42D /* CurrentUserProfileView.swift in Sources */,
 				F8EC1B822B7076F100C1C42D /* AddEmailView.swift in Sources */,
 				F8EC1B882B7079DD00C1C42D /* CreateUsernameView.swift in Sources */,
 				F8EC1B8C2B707BBF00C1C42D /* CompleteSignUpView.swift in Sources */,
+				F8EC1B8E2B707D5C00C1C42D /* User.swift in Sources */,
 				F8EC1B7E2B7067C500C1C42D /* SearchView.swift in Sources */,
 				F8EC1B842B70790600C1C42D /* IGTextFieldModifier.swift in Sources */,
 				F8EC1B782B7056BA00C1C42D /* UserStatView.swift in Sources */,
