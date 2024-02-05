@@ -11,6 +11,8 @@
 		F875E10D2B71105A00B64762 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F875E10C2B71105A00B64762 /* LoginViewModel.swift */; };
 		F8E6C63C2B7162FF0051EF3C /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E6C63B2B7162FF0051EF3C /* UserService.swift */; };
 		F8E6C6422B7163D20051EF3C /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E6C6412B7163D20051EF3C /* SearchViewModel.swift */; };
+		F8E6C6442B7168F60051EF3C /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E6C6432B7168F60051EF3C /* EditProfileView.swift */; };
+		F8E6C6482B716C1E0051EF3C /* EditProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E6C6472B716C1E0051EF3C /* EditProfileViewModel.swift */; };
 		F8EC1B592B704A1A00C1C42D /* InstagramCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EC1B582B704A1A00C1C42D /* InstagramCloneApp.swift */; };
 		F8EC1B5B2B704A1A00C1C42D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EC1B5A2B704A1A00C1C42D /* ContentView.swift */; };
 		F8EC1B5D2B704A1B00C1C42D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8EC1B5C2B704A1B00C1C42D /* Assets.xcassets */; };
@@ -47,6 +49,8 @@
 		F875E10C2B71105A00B64762 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		F8E6C63B2B7162FF0051EF3C /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		F8E6C6412B7163D20051EF3C /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		F8E6C6432B7168F60051EF3C /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
+		F8E6C6472B716C1E0051EF3C /* EditProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewModel.swift; sourceTree = "<group>"; };
 		F8EC1B552B704A1A00C1C42D /* InstagramClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8EC1B582B704A1A00C1C42D /* InstagramCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramCloneApp.swift; sourceTree = "<group>"; };
 		F8EC1B5A2B704A1A00C1C42D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -120,6 +124,25 @@
 				F8E6C6412B7163D20051EF3C /* SearchViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F8E6C6452B716C050051EF3C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F8E6C6472B716C1E0051EF3C /* EditProfileViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F8E6C6462B716C0B0051EF3C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F8EC1B742B70527600C1C42D /* ProfileView.swift */,
+				F8EC1B8F2B7083F300C1C42D /* CurrentUserProfileView.swift */,
+				F8EC1B952B70C4A800C1C42D /* ProfileHeaderView.swift */,
+				F8E6C6432B7168F60051EF3C /* EditProfileView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		F8EC1B4C2B704A1A00C1C42D = {
@@ -232,9 +255,8 @@
 		F8EC1B6D2B7050D300C1C42D /* Profile */ = {
 			isa = PBXGroup;
 			children = (
-				F8EC1B742B70527600C1C42D /* ProfileView.swift */,
-				F8EC1B8F2B7083F300C1C42D /* CurrentUserProfileView.swift */,
-				F8EC1B952B70C4A800C1C42D /* ProfileHeaderView.swift */,
+				F8E6C6462B716C0B0051EF3C /* View */,
+				F8E6C6452B716C050051EF3C /* ViewModel */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -449,6 +471,7 @@
 				F8EC1B752B70527600C1C42D /* ProfileView.swift in Sources */,
 				F8EC1BA72B71083B00C1C42D /* RegisterationViewModel.swift in Sources */,
 				F8EC1B5B2B704A1A00C1C42D /* ContentView.swift in Sources */,
+				F8E6C6482B716C1E0051EF3C /* EditProfileViewModel.swift in Sources */,
 				F8EC1B802B7069ED00C1C42D /* LoginView.swift in Sources */,
 				F8E6C63C2B7162FF0051EF3C /* UserService.swift in Sources */,
 				F8EC1BA02B7100A400C1C42D /* AuthService.swift in Sources */,
@@ -458,6 +481,7 @@
 				F8EC1B822B7076F100C1C42D /* AddEmailView.swift in Sources */,
 				F8EC1B942B70C37300C1C42D /* PostGridView.swift in Sources */,
 				F8EC1B882B7079DD00C1C42D /* CreateUsernameView.swift in Sources */,
+				F8E6C6442B7168F60051EF3C /* EditProfileView.swift in Sources */,
 				F875E10D2B71105A00B64762 /* LoginViewModel.swift in Sources */,
 				F8EC1BA42B7101DC00C1C42D /* ContentViewModel.swift in Sources */,
 				F8EC1B9A2B70C94C00C1C42D /* UploadPostViewModel.swift in Sources */,
