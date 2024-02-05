@@ -23,7 +23,7 @@ extension Post {
         .init(
             id: NSUUID().uuidString,
             ownerUid: NSUUID().uuidString,
-            caption: "hi this is test caption 1",
+            caption: "Team 7",
             likes: 812,
             imageUrl: "naruto-1",
             timestamp: Timestamp(),
@@ -32,7 +32,7 @@ extension Post {
         .init(
             id: NSUUID().uuidString,
             ownerUid: NSUUID().uuidString,
-            caption: "hi this is test caption 2",
+            caption: "",
             likes: 862,
             imageUrl: "kakashi-1",
             timestamp: Timestamp(),
@@ -41,7 +41,7 @@ extension Post {
         .init(
             id: NSUUID().uuidString,
             ownerUid: NSUUID().uuidString,
-            caption: "hi this is test caption 3",
+            caption: "",
             likes: 787,
             imageUrl: "sasuke-1",
             timestamp: Timestamp(),
@@ -50,7 +50,7 @@ extension Post {
         .init(
             id: NSUUID().uuidString,
             ownerUid: NSUUID().uuidString,
-            caption: "hi this is test caption 4",
+            caption: "😌",
             likes: 679,
             imageUrl: "sakura-1",
             timestamp: Timestamp(),
@@ -59,7 +59,7 @@ extension Post {
         .init(
             id: NSUUID().uuidString,
             ownerUid: NSUUID().uuidString,
-            caption: "hi this is test caption 5 hi this is test caption 5",
+            caption: "Haha",
             likes: 529,
             imageUrl: "sai-1",
             timestamp: Timestamp(),

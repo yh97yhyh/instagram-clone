@@ -44,15 +44,13 @@ class AuthService {
 //        Auth.auth().createUser(withEmail: email, password: password) { result, error in
 //            
 //        }
-
     }
     
     @MainActor
     func loadUserData() async throws {
         self.userSession = Auth.auth().currentUser
         guard let currentUid = self.userSession?.uid else { return }
-        let snapshot = try await Firestore.firestore().collection("users").document(currentUid).getDocument()
-        self.currentUser = try? snapshot.data(as: User.self) //decoding
+        self.currentUser = try await UserService.fetchUser(withUid: currentUid)
     }
      
     func signout() {
