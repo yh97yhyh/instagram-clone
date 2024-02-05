@@ -50,7 +50,7 @@ extension Post {
             id: NSUUID().uuidString,
             ownerUid: NSUUID().uuidString,
             caption: "hi this is test caption 4",
-            likes: 579,
+            likes: 679,
             imageUrl: "sakura-1",
             timestamp: Date(),
             user: User.MOCK_USERS[1]
