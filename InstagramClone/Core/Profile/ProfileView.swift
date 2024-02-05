@@ -49,7 +49,7 @@ struct ProfileView: View {
                         Text("🦊🍜🍥")
                             .font(.footnote)
                     }
-                    .frame(maxWidth: .infinity, alignment: .leading) // 왼쪽으로 붙임
+                    .frame(maxWidth: .infinity, alignment: .leading) // 왼쪽으로 붙임 (VStack)
                     .padding(.horizontal)
                     .padding(.bottom, 8)
                     

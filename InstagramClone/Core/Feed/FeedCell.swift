@@ -22,7 +22,7 @@ struct FeedCell: View {
                     .font(.footnote)
                     .fontWeight(.semibold)
                 
-                Spacer() // 왼쪽으로 붙임
+                Spacer() // 왼쪽으로 붙임 (HStack)
             }
             .padding(.leading, 8)
             
