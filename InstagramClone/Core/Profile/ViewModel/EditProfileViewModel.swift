@@ -68,7 +68,20 @@ class EditProfileViewModel: ObservableObject {
         
         if !data.isEmpty {
             try await Firestore.firestore().collection("users").document(user.id).updateData(data)
+            try await fetchUser()
+        }
+    }
+    
+    @MainActor
+    func fetchUser() async throws {
+        self.user = try await UserService.fetchUser(withUid: user.id)
+        
+        if let fullname = user.fullname {
+            self.fullname = fullname
         }
         
+        if let bio = user.bio {
+            self.bio = bio
+        }
     }
 }

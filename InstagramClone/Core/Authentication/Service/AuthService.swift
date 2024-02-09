@@ -41,9 +41,7 @@ class AuthService {
             print("DEBUG: Failed to register user with error \(error.localizedDescription)")
         }
         
-//        Auth.auth().createUser(withEmail: email, password: password) { result, error in
-//            
-//        }
+
     }
     
     @MainActor
