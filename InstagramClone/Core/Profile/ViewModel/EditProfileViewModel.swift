@@ -83,5 +83,9 @@ class EditProfileViewModel: ObservableObject {
         if let bio = user.bio {
             self.bio = bio
         }
+        
+//        if let imageUrl = user.profileImageUrl {
+//            
+//        }
     }
 }

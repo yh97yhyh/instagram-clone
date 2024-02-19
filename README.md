@@ -1,5 +1,15 @@
 # Instagram Clone
 
+<img src="https://github.com/yh97yhyh/instagram-clone/assets/47898473/1b802831-f492-4533-aae2-4cbd54b7080e" width="45%" height="45%"/>
+<img src="https://github.com/yh97yhyh/instagram-clone/assets/47898473/fbf4f45c-aa5d-4315-b045-db91e01d6b87" width="45%" height="45%"/>
+<img src="https://github.com/yh97yhyh/instagram-clone/assets/47898473/93f7b00e-b780-4d7c-973c-27b33f7de383" width="45%" height="45%"/>
+<img src="https://github.com/yh97yhyh/instagram-clone/assets/47898473/df7ac504-4204-4ad3-9ec5-6a80081a9cb7" width="45%" height="45%"/>
+<img src="https://github.com/yh97yhyh/instagram-clone/assets/47898473/205256e9-89b1-4964-9e66-2135e1e16692" width="45%" height="45%"/>
+<img src="https://github.com/yh97yhyh/instagram-clone/assets/47898473/dd7f7d3d-71b6-4f8d-afcb-ecb76650ea7a" width="45%" height="45%"/>
+<img src="https://github.com/yh97yhyh/instagram-clone/assets/47898473/fb25431c-e694-4a89-be2b-816fdf23f813" width="45%" height="45%"/>
+<img src="https://github.com/yh97yhyh/instagram-clone/assets/47898473/7b722253-0da1-4ea4-bcdb-5757ab46a9c3" width="45%" height="45%"/>
+
+
 ## 📱 View
 
 ### LazyVGrid
